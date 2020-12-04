@@ -1,0 +1,28 @@
+html,body,#app{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1100px;
+    position: relative;
+}
+.el-upload--picture{
+    width: 70px;
+    height:70px;
+    line-height: 76px;
+    position: absolute;
+    top: -50%;
+    border-radius: 50%;
+    border: 1px dashed ;
+}
+.el-form-item{
+    margin-bottom: 10px;
+}
+.el-dialog{
+    margin-top: 8vh !important;
+}
+.el-card {
+    margin-top: 14px;
+  }
+  .el-table .cell{
+      overflow:visible;
+  }
